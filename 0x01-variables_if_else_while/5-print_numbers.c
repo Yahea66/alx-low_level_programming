@@ -5,6 +5,7 @@
  *
  * return: always 0 (success)
  */
+/* i don't get it */
 int main(void)
 {
 int i;
