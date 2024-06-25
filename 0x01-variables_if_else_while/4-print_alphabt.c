@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -6,6 +5,7 @@
  *
  * RETURN: Always 0 (Success)
  */
+
 int main(void)
 {
 char alphabet;
