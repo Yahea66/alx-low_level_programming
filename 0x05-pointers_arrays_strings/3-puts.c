@@ -3,7 +3,7 @@
 /**
  * _puts - prints a string, followed by a new line, to stdout
  * @str: pointer to a string
- * 
+ *
  * Description: This function takes a pointer to a string and prints it
  * character by character to the standard output, followed by a new line.
  */
