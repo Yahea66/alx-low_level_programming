@@ -4,8 +4,9 @@
  * print_rev - prints a string, followed by a new line, to stdout
  * @s: pointer to a string
  *
- * Description: This function takes a pointer to a string
- * character by character to the standard output in reverse, followed by a new line.
+ * Description: This function takes a pointer to a string and prints it
+ * character by character to the standard output in reverse,
+ * followed by a new line.
  */
 void print_rev(char *s)
 {
