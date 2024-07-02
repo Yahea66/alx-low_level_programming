@@ -7,6 +7,8 @@
  *
  * Description: This function takes a pointer to a string,
  * prints the second half of the string
+ *
+ * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src) 
 {
