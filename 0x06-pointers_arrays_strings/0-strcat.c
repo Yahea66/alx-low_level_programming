@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcpy - copies the string 
+ * *_strcat - concatenates two strings.
  * @dest: pointer to a string
  * @src: pointer to a string 
  *
@@ -10,17 +10,20 @@
  *
  * Return: the pointer to dest
  */
-char *_strcpy(char *dest, char *src) 
+char *_strcat(char *dest, char *src)
 {
-int length = 0;
-int i;
-while (src[length] != '\0')
+int l = 0;
+int i = 0;
+while (dest[l] != '\0')
 {
-length++;
-}
-for (i = 0; i < length + 1; i++)
+l++;
+} 
+while (src[i] != '\0')
 {
-dest[i] = src[i];
-}
+dest[l] = src[i];
+l++;
+i++;
+} 
+dest[l] = '\0';
 return (dest);
-}
+} 
