@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * _strncpy - copies two strings up to n characters.
+ * _strncpy - copies up to n characters from the source string to the 
+ * destination string.
  * @dest: pointer to the destination string
  * @src: pointer to the source string
  * @n: maximum number of characters to be copied from src
  *
- * Description: This function copies up to n characters from the 
- * source string to the destination string. If the source string
- * has fewer than n characters, the entire source string is appended.
+ * Description: This function copies up to n characters from the source 
+ * string to the destination string. If the source string has fewer 
+ * than n characters, the remainder of the destination string is filled 
+ * with null characters.
  *
  * Return: the pointer to dest
  */
