@@ -1,8 +1,12 @@
-#include "main.h" 
+#include "main.h"
+
 /**
- * main - prints 10 times the numbers
+ * more_numbers - Prints 10 times the numbers from 0 to 14.
  *
- * Return: Void
+ * Description: This function prints the numbers from 0 to 14, ten times,
+ * followed by a newline.
+ *
+ * Return: void
  */
 void more_numbers(void)
 {
