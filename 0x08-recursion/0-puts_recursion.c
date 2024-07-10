@@ -4,7 +4,7 @@
  * _puts_recursion - prints a string, followed by a new line.
  * @s: pointer to a string
  *
- * Description: The _puts_recursion() prints a string, followed by a new line.
+ * Description: The _puts_recursion() prints a string, followed by a new line
  *
  * Return: Void
  */
@@ -16,5 +16,5 @@ _putchar('\n');
 return;
 }
 _putchar(*s);
-_puts_recursion(s+1);
-} 
+_puts_recursion(s + 1);
+}
