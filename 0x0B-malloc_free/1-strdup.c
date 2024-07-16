@@ -18,11 +18,11 @@ while (str[n])
 size++;
 n++;
 } 
-if (size == 0)
+if (str == NULL)
 {
 return (NULL);
 }
-arr = malloc(sizeof(char) * size);
+arr = malloc(sizeof(char) * (size + 1));
 if (arr == NULL)
 {
 return (NULL);
@@ -31,5 +31,6 @@ for (i = 0; i < size; i++)
 {
 arr[i] = str[i];
 }
+arr[size] = '\0';
 return (arr);
 }
